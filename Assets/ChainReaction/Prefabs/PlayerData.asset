@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2badf2af7ec31e0449243c5e27e69094, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  Data:
+  - Id: 0
+    FirstTurn: 1
+    Mat: {fileID: 2100000, guid: ead90d187f5f0d04badb58644b81824f, type: 2}
+    PCol: {r: 1, g: 0, b: 0, a: 1}
+    PName: Red
+  - Id: 0
+    FirstTurn: 1
+    Mat: {fileID: 2100000, guid: a95bf26950cf83042915b8fe0b16fc82, type: 2}
+    PCol: {r: 0.019819856, g: 1, b: 0, a: 1}
+    PName: Green
+  - Id: 0
+    FirstTurn: 1
+    Mat: {fileID: 2100000, guid: 08ac0cb390612d54da631263ae658a28, type: 2}
+    PCol: {r: 0, g: 0.18643188, b: 1, a: 1}
+    PName: Blue
+  - Id: 0
+    FirstTurn: 1
+    Mat: {fileID: 2100000, guid: 5873ceaebf6793a4b9f967bbba399c84, type: 2}
+    PCol: {r: 1, g: 0.9371726, b: 0, a: 1}
+    PName: Yellow
+  - Id: 0
+    FirstTurn: 1
+    Mat: {fileID: 2100000, guid: 1c0a9ffe5638df54ca5a6fa7d81c192c, type: 2}
+    PCol: {r: 0.95696735, g: 0, b: 1, a: 1}
+    PName: Pink
+  - Id: 0
+    FirstTurn: 1
+    Mat: {fileID: 2100000, guid: c53c14378baec6a4bb8afec1da810dad, type: 2}
+    PCol: {r: 0.003826994, g: 0.8113208, b: 0.7396123, a: 1}
+    PName: Cyan
+  - Id: 0
+    FirstTurn: 1
+    Mat: {fileID: 2100000, guid: 445126185117a7945b60446d308a6f7e, type: 2}
+    PCol: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+    PName: Grey
