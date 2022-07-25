@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using FrostyScripts.Fader;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;

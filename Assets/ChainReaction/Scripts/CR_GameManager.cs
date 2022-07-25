@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using FrostyScripts.Fader;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -30,7 +31,6 @@ namespace Athena.ChainReaction
         [SerializeField] private float sizeInMeters;
         [SerializeField] private float uiheight;
         private CRGrid _grid;
-
         //TurnSelect
         [SerializeField] private int _playerCount = 2;
         [SerializeField] PlayerData _playerData;
@@ -165,10 +165,10 @@ namespace Athena.ChainReaction
             var board = Instantiate(_boardPrefab, center, Quaternion.identity, _boardParent.transform).GetComponent<SpriteRenderer>();
             board.size = new Vector2(_width-0.1f, _height -0.3f);
             _bgSprite = board;
-            _camera.transform.position = new Vector3(center.x, center.y, -10f);
+            _camera.transform.position = new Vector3(center.x, center.y+0.4f, -10f);
             
-            float orthoSize = sizeInMeters * (Screen.height-uiheight) / Screen.width * 0.5f;
-            _camera.orthographicSize = orthoSize;
+            
+            
         }
 
 

@@ -4,18 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace Athena.ChainReaction
+namespace FrostyScripts.Fader
 {[RequireComponent(typeof(Image),typeof(Animator))]
     public class SceneFader : MonoBehaviour
     {
 
         private Image fadeImage;
         private Animator fadeImageAnimator;
+        [SerializeField] private float FadeSpeed = 1f;
 
         void Awake()
         {
             fadeImage = GetComponent<Image>();
             fadeImageAnimator = GetComponent<Animator>();
+            fadeImageAnimator.speed *= FadeSpeed;
         }
         public void FadeToScene(string scene)
         {
